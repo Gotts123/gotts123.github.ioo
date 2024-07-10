@@ -1,0 +1,151 @@
+html, body{
+    padding: 0;
+    margin: 0;
+}
+#fundo1{
+    background: url(img/fundo1.jpeg);
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+}
+#titulo1{
+    color: white;
+    padding-top: 10%;
+    font-size: 80px;
+    line-height: 5;
+    font-style: italic;
+    margin-left: 20%;
+    margin-right: 20%; 
+}
+.coluna{
+    float: left;
+    padding: 3% 5%;
+    position: relative;
+    height: 378;
+
+}
+.dois{
+    width: 40%;
+}
+#bandeira2{
+    background: linear-gradient(to right, green, white, red);
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.secao2{
+    height: 100%;
+    position: relative;
+    margin-top: -3.2%;
+
+}
+.titulo2{
+    font-size:medium;
+}
+.informacoes{
+    background: url(img/coliseu1.jpeg);
+    background-size: 100%;
+    text-align: center;
+    height: 100%;
+}
+#titulo3{
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    line-height: 5; 
+}
+.howido{
+    margin-left: 20%;
+    margin-right: 20%;
+    color: black;
+    font-size: 22px;
+    background-color: rgba(128, 128, 128, 0.568);
+    font-style: italic;
+}
+.secao3{
+    background-color: rgb(241, 149, 68, 0.486);
+    text-align: center;
+    height: 100%;
+   
+}
+.img2{
+    height: 250px;
+    width: 400px;
+    margin-top: 5%;
+}
+.torre{
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 20px;
+}
+.coliseu2{
+    background-color: rgba(241, 149, 68, 0.486);
+    text-align: center;
+    height: 100%;
+}
+#img3{
+    margin-top: 5%;
+    
+}
+.linha1{
+    height: 5px;
+    background-color: black;
+    margin-top: 0;
+}
+.veneza2{
+    background-color: rgba(241, 149, 68, 0.486);
+    text-align: center;
+    height: 100%;
+}
+#img4{
+    height: 250px;
+    width: 400px;
+    margin-top: 5%;
+
+}
+.veneza{
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 20px;
+}
+#logodiv{
+    width: 100%;
+    position: relative;
+    text-align: left;
+    padding: 0px;
+}
+#cabecario{
+    
+    color: white;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index:10;
+}
+#logo{
+    width: 96px;
+    position: fixed;
+    top: 10px;
+    margin-top: 0px;
+    transform: translateX(-50%);
+    margin-left: 5%;
+    
+
+}
+#menu{
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 0px;
+}
+li{
+    float: left;
+    padding: 20 10 20 10;
+}
+
+li:hover{
+    background-color: green;
+}
+
+    
